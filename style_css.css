@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+	.pg1{
+	width: 100%;
+	height: auto;
+	background-position: top;
+	background-image: url(images/sfondo.png);
+	background-size: 100% 100%;}
+	.pg2{width: 100%;
+		height: auto;
+		background-color: #eaeaea;}
+.about { margin-left: 15%;
+	margin-right: 12.5%;
+	margin-top: 2%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		font-weight: 300;
+		text-align: justify;
+font-size: 20px;}
+	.navbar{
+	width: 100%;
+	height: auto;
+	padding:2.5% 10%;
+display:inline-block;
+}
+.fa .fa-arrow-circle-o-left .fa-arrow-circle-o-right {font-size: 20px;
+color: black;
+text-align: center;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+font-weight: 300;}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.dropbtn {
+  color: white;
+  font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 300;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+	width: 100%;
+	height: auto;
+	padding:2.5% 10%;
+display:inline-block;
+}
+.dropdown-content {
+	padding: 4px;
+width: 15%;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+border-radius: 0px 0px 25px 25px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: RGB(234,234,234,0.6);
+border-radius: 25px;
+font-weight: bold;}
+.dropdown:hover .dropdown-content {display: block;}
+/*
+.down_nav {
+	margin: 2px;
+	padding:2px;
+	width: 1.5%;
+	height: 1.5%;
+	position: fixed;
+}
+.cerchio {border-radius: 50%;
+color:black;
+font-size:20px;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";}
+*/
+.pul {width:20%;
+height: 5%;
+	padding: 4px;
+	border-radius: 15px;
+text-align: center;
+color: black;
+font-weight: 300;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+font-size: 20px;
+display:inline-block;}
+	h1{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	font-weight: 300;
+	font-size: 52px;	
+	}
+	h2{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	text-align: center;
+	font-weight: 300;
+	font-size:30px;}
+	
+	h3{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	text-align: center;}
+	
+	h4{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	text-align: center;}
+	
+	h5{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin-top: 10px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;}
+	.col1{
+	margin-top: 150px;
+	text-align: center;
+		width: 25%;
+		height: 25%;
+	}
+	
+	header{
+	background-color: rgba(234,234,234,0.25);
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+	color: #00000;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.nor a{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+		font-weight: 500;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;}
+.nor a:hover{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+color: #daa520;}
+
+.reg {text-decoration: none;
+color: black;
+font-weight: 300;}
+	.col1 a {font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+		font-weight: 300;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	display: inline-flex;
+	margin:96px;}
+	.col1:hover{
+	background-color: rgba(234,234,234,0.5);
+		width: 25%;
+		height: 25%;
+	}
+.bigbox{width: 100%;
+height: auto;
+display: inline-block;}
+.testo{margin:2.5% 4%;
+width: 15%;
+height: auto;
+background-color: #ffffff;
+border-radius: 25px;
+display: inline-block;
+color: black;}
+
+.button {
+			text-decoration: none;
+           width: auto;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+	color: black;
+	margin: 1.5%;
+	font-weight: 300;
+            }
+	footer{display:inline-flex; }
+/*gestione javascript e svg*/
+ #show-hide {
+            border: 1px solid #326273;
+        }
+	#cont{visibility:hidden;
+            width: 50%;
+			height: auto;
+            border: 1px solid green;
+            margin:auto;
+}
+ div#sliderwrap {padding: 5px 0 0 0;}
+            p#desc{ font-size: 70%; padding: 0 15% 0 0; height:1em; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; color:black; font-weight: 300; display: inline;}
+            div#side_controls {float: left;}
+            ul#actions, ul#minis { list-style: none; }
+            ul#actions li { margin-bottom: 10px;}
+            ul#minis li { 
+                border: 1px solid Black; 
+                background-color: gold;
+                padding: 1px; 
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            li#c_move { width: 16px; height: 16px; 
+                background-image: url('../Prototipo_Manzoni/output/images/move.png'); 
+                background-position: 0;
+                text-indent: -9999px; white-space: nowrap; }
+            li#c_mini { width: 16px; height: 16px; 
+                background-image: url('../Prototipo_Manzoni/output/images/minus.png'); 
+                background-position: 0; 
+                text-indent: -9999px; white-space: nowrap; }
+            #minip {display: none; position:absolute; font-weight: bold; font-size: 20px;}
+            #tooltip{
+                position:absolute;
+                text-indent: 0;
+                border:1px solid #333;
+                background:#f7f5d1;
+                padding:2px 5px;
+                color:#333;
+                display:none;
+            }
+ .page_wide_margin { width: 60%;
+height: auto;
+display: inline-block;
+margin-left: 20%;
+margin-right: 20%;}
+            .page_thin_margin { margin-left: 5%; }
+.cartiglio {
+	   position: absolute;
+	   border: 1px solid Black;
+	   background-color: white;
+	   box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+	}
+	
+	.cartiglio_info {
+	   background-color: white;
+	   border-bottom: 1px solid Black;
+	   padding: 6px;
+	}
+	
+	.cartiglio_mostra {
+	   float: right;
+	}
+	
+	#container {
+	   display: flex;
+	   flex-wrap: no-wrap;
+	}
+	 #testo {
+    display: none;
+    width: 15%;
+    }
+    
+    .transcription_content h1{
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+        text-align: center;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    .transcription_content h2{
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+        text-align: center;
+        font-size: 14px;
+    }
+    .transcription_content p{
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+        font-size: 12px;
+        text-align: justify;
+    }
+    .transcription_content .block{
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+        font-size: 12px;
+        text-align: justify;
+        display: block;
+    }
+    .transcription_content .inline{
+        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+        font-size: 12px;
+        text-align: justify;
+    }
+    .transcription_content .box{
+        text-decoration: none;
+        width: 350px;
+        height: 500px;
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .transcription_content .note{margin-top:30px;
+    font-size:10px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";}
+    .modeOn {
+              color: none;
+			font-weight: bold;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+            }
