@@ -42,8 +42,8 @@
 	<option value="53v">53v</option>
 </select> <a id="next" href="" class="button"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></div></div></div>
 <div class="bigbox">
-	<div class="testo" id="testo" data-mode="fl">
-		<h3>Trascrizione <span id="testo_mode">Fermo e Lucia</span></h3>
+	<div class="testo" id="testo" data-mode="sp">
+		<h3>Trascrizione <span id="testo_mode">Sposi Promessi/span></h3>
             <div id="testo_content"></div>
 	</div>
 	<div id="page" class="page_wide_margin">
@@ -54,6 +54,10 @@
                 <p id="desc"></p>
             </div>
             <div id="canvas"></div>
+	</div>
+    <div class="testo1" id="testo" data-mode="fl">
+		<h3>Trascrizione <span id="testo_mode">Fermo e Lucia</span></h3>
+            <div id="testo_content"></div>
 	</div>
 	</div>
         <script type="application/javascript">
@@ -492,13 +496,13 @@ function setText(text) {
     switch (text) {
         case 'sp': 
             imglist = 1;
-            $('#reading_sp').addClass('modeOn')
-            $('#reading_fl').removeClass('modeOn')
+            $('#writing_sp').addClass('modeOn')
+            $('#writing_fl').removeClass('modeOn')
         break;
         case 'fl': 
             imglist = 0;
-            $('#reading_fl').addClass('modeOn')
-            $('#reading_sp').removeClass('modeOn')
+            $('#writing_fl').addClass('modeOn')
+            $('#writing_sp').removeClass('modeOn')
         break;
         default: imglist = 0        
     }

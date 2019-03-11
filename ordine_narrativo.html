@@ -42,8 +42,8 @@
 	<option value="53v">53v</option>
 </select> <a id="next" href="" class="button"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></div></div></div>
 <div class="bigbox">
-	<div class="testo" id="testo" data-mode="fl">
-		<h3>Trascrizione <span id="testo_mode">Fermo e Lucia</span></h3>
+	<div class="testo" id="testo" data-mode="sp">
+		<h3>Trascrizione <span id="testo_mode">Sposi Promessi</span></h3>
             <div id="testo_content"></div>
 	</div>
 	<div id="page" class="page_wide_margin">
@@ -55,6 +55,10 @@
             </div>
             <div id="canvas"></div>
         </div>
+     <div class="testo1" id="testo" data-mode="fl">
+		<h3>Trascrizione <span id="testo_mode">Fermo e Lucia</span></h3>
+            <div id="testo_content"></div>
+	</div>
 	</div>
         <script>
 		window.onscroll = function() {stickymenu()};
@@ -531,7 +535,7 @@ function showTranscription(folio, mode) {
             $('#testo_content').html(text)            
         }, 'text')
     
-    $('#testo').data('mode', mode)
+    $('#testo','#testo1').data('mode', mode)
     mode_label = mode === 'sp'? 'Sposi Promessi' : 'Fermo e Lucia'
     $('#testo_mode').text(mode_label)
    

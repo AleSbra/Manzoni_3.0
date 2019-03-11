@@ -168,6 +168,14 @@ border-radius: 25px;
 display: inline-block;
 color: black;}
 
+.testo1{margin:2.5% 4%;
+width: 15%;
+height: auto;
+background-color: #ffffff;
+border-radius: 25px;
+display: inline-block;
+color: black;}
+
 .button {
 			text-decoration: none;
            width: auto;
@@ -278,7 +286,7 @@ margin-right: 20%;}
         font-size: 12px;
         text-align: justify;
     }
-    .transcription_content .box{
+    .transcription_content .bigbox{
         text-decoration: none;
         width: 350px;
         height: 500px;
