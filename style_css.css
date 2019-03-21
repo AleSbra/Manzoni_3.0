@@ -159,7 +159,8 @@ font-weight: 300;}
 	}
 .bigbox{width: 100%;
 height: auto;
-display: inline-block;}
+display: inline-block;
+float: left;}
 	 .testo {
    margin:2.5px 10px;
 width: 15%;
@@ -167,8 +168,9 @@ height: auto;
 background-color: #ffffff;
 border-radius: 25px;
 display: inline-flex;
-         float: left;
+float: left;
 color: black;
+position: absolute;
     }
 .testo1 {
    margin:2.5px 10px;

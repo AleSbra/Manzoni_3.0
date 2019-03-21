@@ -45,7 +45,7 @@
 </select> <a id="next" href="" class="button"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a></div>
     </div></div>
 <div class="bigbox">
-	<div id="testo" data-mode="fl">
+	<div class="testo" id="testo" data-mode="fl">
 		<h3>Trascrizione <span id="testo_mode">Fermo e Lucia</span></h3>
             <div id="testo_content"></div>
 	</div>
@@ -66,9 +66,9 @@
             <div class="patch"></div>
         </div>
         
-    <!--<div class="testo1" id="testo1" data-mode="sp">
-		<h3>Trascrizione <span id="testo_mode1">Sposi Promessi</span></h3>
-            <div id="testo_content1"></div>
+   <!--<div class="testo_sp" id="testosp" data-mode="sp">
+		<h3>Trascrizione <span id="testo_modesp">Sposi Promessi</span></h3>
+            <div id="testo_contentsp"></div>
 	</div>-->
 	</div>
         <script>
@@ -539,9 +539,9 @@ function setText(text) {
 function showTranscription(folio, mode) {
     $.get('testi/'+mode+'/'+folio+'.html', function(data) {
             text = $.grep($(data), function( n, i ) {
-                return ( $(n).hasClass('navbar') );
+                return ( $(n).hasClass('testo') );
             })[0]
-            text.classList.remove('navbar')
+            text.classList.remove('testo')
             text.classList.add('transcription_content')
             $('#testo_content').html(text)            
         }, 'text')

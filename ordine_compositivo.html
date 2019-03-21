@@ -65,10 +65,10 @@
             <div class="patch"></div>
         </div>
         
-   <div class="testo1" id="testo1" data-mode="sp">
-		<h3>Trascrizione <span id="testo_mode1">Sposi Promessi</span></h3>
-            <div id="testo_content1"></div>
-	</div>
+   <!--<div class="testo_sp" id="testosp" data-mode="sp">
+		<h3>Trascrizione <span id="testo_modesp">Sposi Promessi</span></h3>
+            <div id="testo_contentsp"></div>
+	</div>-->
 	</div>
         <script type="application/javascript">
 		/*window.onscroll = function() {stickymenu()};
@@ -520,20 +520,21 @@ function setText(text) {
 
 // show transcription
 function showTranscription(folio, mode) {
-    $.get('testi/'fl'/'+folio+'.html', function(data) {
+    $.get('testi/'+mode+'/'+folio+'.html', function(data) {
             text = $.grep($(data), function( n, i ) {
                 return ( $(n).hasClass('navbar') );
             })[0]
             text.classList.remove('navbar')
             text.classList.add('transcription_content')
-            $('#testo_content').html(text)            
+            $('#testo_contentfl').html(text)            
         }, 'text')
     
     $('#testo').data('mode', mode)
-    mode_label = mode === 'fl'? 'Fermo e Lucia' : 'Sposi Promessi'
+    mode_label = mode === 'fl'? 'sp':'fl'
     $('#testo_mode').text(mode_label)
    
 }
+
 
 // get url params
 function getHashParams() {
@@ -617,7 +618,7 @@ $('.toggleTranscription').click(function(e) {
     mode_id = $(e.target).closest('p').find('a:eq(0)').attr('id')
     mode = mode_id.match('fl') ? 'sp' : 'fl'
     
-    container = $('#testo')
+    container = $('#testo',)
     if (container.is(':visible')) {
         if (container.data('mode') ===  mode) {
             container.hide()
